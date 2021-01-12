@@ -9,19 +9,19 @@ describe('AppComponent', () => {
       imports: [RouterTestingModule],
       declarations: [AppComponent],
     }).compileComponents();
-  });
+  })
 
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
-  });
+  })
 
   it(`should have as title 'bcg-dashboard'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app.title).toEqual('bcg-dashboard');
-  });
+  })
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
@@ -30,5 +30,5 @@ describe('AppComponent', () => {
     const compiledNativeEl = compiledEl.nativeElement;
     const span = compiledNativeEl.querySelector('.content span');
     expect(span.textContent).toContain('bcg-dashboard app is running!');
-  });
-});
+  })
+})
