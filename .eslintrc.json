@@ -53,8 +53,7 @@
         "*.html"
       ],
       "extends": [
-        "plugin:@angular-eslint/template/recommended",
-        "prettier/@typescript-eslint"
+        "plugin:@angular-eslint/template/recommended"
       ],
       "rules": {}
     }
