@@ -6,7 +6,7 @@ steps:
     dir: "bcg-dashboard"
 
   # Build production package
-  - name: "gcr.io/{dashboard-300904}/ng"
+  - name: "gcr.io/dashboard-300904/ng"
     args: ["build", "--prod"]
     dir: "bcg-dashboard"
 
